@@ -2,7 +2,7 @@ import axios from "ts-axios-new";
 
 const urlMap = {
   development: "/",
-  production: "/public/dist/"
+  production: "/vue-sell/public/"
 };
 const baseUrl = urlMap[process.env.NODE_ENV];
 const ERR_OK = 0;
