@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "report": "vue-cli-service build --report",
-    "deploy":"git add . && git commit -m \"deploy\" && git push origin next"
+    "deploy":"git add . && git commit -m \"deploy\" && git push origin master"
   },
   "dependencies": {
     "ts-axios-new": "^0.1.5",
